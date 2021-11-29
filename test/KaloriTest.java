@@ -67,13 +67,13 @@ public class KaloriTest {
     }
     @Test
     void testGeneralException() {
-        IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> {
+        Exception exception = assertThrows(IllegalArgumentException.class, () -> {
                 kalori.calcMen(0, 0, 0);
             });
         assertEquals("Hiba! ez az érték nem jó!", exception.getMessage());
     }
     void testGeneralException1() {
-        IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> {
+        Exception exception = assertThrows(IllegalArgumentException.class, () -> {
             kalori.calcWomen(0, 0, 0);
             });
         assertEquals("Hiba! ez az érték nem jó!", exception.getMessage());
