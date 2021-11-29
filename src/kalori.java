@@ -1,3 +1,8 @@
+/*
+Vásárhelyi Ágoston, Baráth Máté, Fésű Gábor 2021. 11. 29.
+https://github.com/gostonnn/kalori
+*/
+
 public class kalori{
 
     public double calcWomen( double weight, double height, int age){

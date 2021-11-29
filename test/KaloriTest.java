@@ -1,3 +1,8 @@
+/*
+Vásárhelyi Ágoston, Baráth Máté, Fésű Gábor 2021. 11. 29.
+https://github.com/gostonnn/kalori
+*/
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.fail;
 import static org.junit.jupiter.api.Assertions.assertThrows;
